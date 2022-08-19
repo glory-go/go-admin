@@ -20,5 +20,4 @@ cmd/migrate/migration/version-local/*
 */.DS_Store
 
 # go sum
-go.sum
 config/settings.deva.yml

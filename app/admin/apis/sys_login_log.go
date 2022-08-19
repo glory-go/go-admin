@@ -1,10 +1,11 @@
 package apis
 
 import (
+	"go-admin/app/admin/models"
+
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
-	"github.com/go-admin-team/go-admin-core/sdk/api"
-	"go-admin/app/admin/models"
+	"github.com/glory-go/go-admin-core/sdk/api"
 
 	"go-admin/app/admin/service"
 	"go-admin/app/admin/service/dto"

@@ -6,17 +6,18 @@ import (
 	"go-admin/common"
 	"net/http"
 
-	"github.com/gin-gonic/gin"
-	"github.com/go-admin-team/go-admin-core/sdk"
-	"github.com/go-admin-team/go-admin-core/sdk/api"
-	"github.com/go-admin-team/go-admin-core/sdk/config"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg/captcha"
-	jwt "github.com/go-admin-team/go-admin-core/sdk/pkg/jwtauth"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg/jwtauth/user"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg/response"
-	"github.com/mssola/user_agent"
 	gaConfig "go-admin/config"
+
+	"github.com/gin-gonic/gin"
+	"github.com/glory-go/go-admin-core/sdk"
+	"github.com/glory-go/go-admin-core/sdk/api"
+	"github.com/glory-go/go-admin-core/sdk/config"
+	"github.com/glory-go/go-admin-core/sdk/pkg"
+	"github.com/glory-go/go-admin-core/sdk/pkg/captcha"
+	jwt "github.com/glory-go/go-admin-core/sdk/pkg/jwtauth"
+	"github.com/glory-go/go-admin-core/sdk/pkg/jwtauth/user"
+	"github.com/glory-go/go-admin-core/sdk/pkg/response"
+	"github.com/mssola/user_agent"
 
 	"go-admin/common/global"
 )

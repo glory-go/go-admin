@@ -2,17 +2,18 @@ package jobs
 
 import (
 	"fmt"
-	log "github.com/go-admin-team/go-admin-core/logger"
-	"github.com/go-admin-team/go-admin-core/sdk"
 	models2 "go-admin/app/jobs/models"
-	"gorm.io/gorm"
 	"sync"
 	"time"
 
+	log "github.com/glory-go/go-admin-core/logger"
+	"github.com/glory-go/go-admin-core/sdk"
+	"gorm.io/gorm"
+
 	"github.com/robfig/cron/v3"
 
-	"github.com/go-admin-team/go-admin-core/sdk/pkg"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg/cronjob"
+	"github.com/glory-go/go-admin-core/sdk/pkg"
+	"github.com/glory-go/go-admin-core/sdk/pkg/cronjob"
 )
 
 var timeFormat = "2006-01-02 15:04:05"

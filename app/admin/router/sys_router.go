@@ -1,13 +1,14 @@
 package router
 
 import (
-	"github.com/go-admin-team/go-admin-core/sdk/config"
 	"go-admin/app/admin/apis"
 	"mime"
 
+	"github.com/glory-go/go-admin-core/sdk/config"
+
 	"github.com/gin-gonic/gin"
-	jwt "github.com/go-admin-team/go-admin-core/sdk/pkg/jwtauth"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg/ws"
+	jwt "github.com/glory-go/go-admin-core/sdk/pkg/jwtauth"
+	"github.com/glory-go/go-admin-core/sdk/pkg/ws"
 	ginSwagger "github.com/swaggo/gin-swagger"
 	"github.com/swaggo/gin-swagger/swaggerFiles"
 

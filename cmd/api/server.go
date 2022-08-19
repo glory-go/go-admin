@@ -10,12 +10,12 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/go-admin-team/go-admin-core/config/source/file"
-	"github.com/go-admin-team/go-admin-core/sdk"
-	"github.com/go-admin-team/go-admin-core/sdk/api"
-	"github.com/go-admin-team/go-admin-core/sdk/config"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg"
-	"github.com/go-admin-team/go-admin-core/sdk/runtime"
+	"github.com/glory-go/go-admin-core/config/source/file"
+	"github.com/glory-go/go-admin-core/sdk"
+	"github.com/glory-go/go-admin-core/sdk/api"
+	"github.com/glory-go/go-admin-core/sdk/config"
+	"github.com/glory-go/go-admin-core/sdk/pkg"
+	"github.com/glory-go/go-admin-core/sdk/runtime"
 	"github.com/spf13/cobra"
 
 	"go-admin/app/admin/models"

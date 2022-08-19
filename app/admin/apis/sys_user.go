@@ -1,16 +1,17 @@
 package apis
 
 import (
-	"github.com/gin-gonic/gin/binding"
-	"github.com/go-admin-team/go-admin-core/sdk/config"
 	"go-admin/app/admin/models"
-	"golang.org/x/crypto/bcrypt"
 	"net/http"
 
+	"github.com/gin-gonic/gin/binding"
+	"github.com/glory-go/go-admin-core/sdk/config"
+	"golang.org/x/crypto/bcrypt"
+
 	"github.com/gin-gonic/gin"
-	"github.com/go-admin-team/go-admin-core/sdk/api"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg/jwtauth/user"
-	_ "github.com/go-admin-team/go-admin-core/sdk/pkg/response"
+	"github.com/glory-go/go-admin-core/sdk/api"
+	"github.com/glory-go/go-admin-core/sdk/pkg/jwtauth/user"
+	_ "github.com/glory-go/go-admin-core/sdk/pkg/response"
 	"github.com/google/uuid"
 
 	"go-admin/app/admin/service"

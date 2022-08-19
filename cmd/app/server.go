@@ -4,10 +4,11 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg/utils"
-	"github.com/spf13/cobra"
 	"text/template"
+
+	"github.com/glory-go/go-admin-core/sdk/pkg"
+	"github.com/glory-go/go-admin-core/sdk/pkg/utils"
+	"github.com/spf13/cobra"
 )
 
 var (

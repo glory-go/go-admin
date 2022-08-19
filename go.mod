@@ -11,8 +11,8 @@ require (
 	github.com/bytedance/go-tagexpr/v2 v2.7.12
 	github.com/casbin/casbin/v2 v2.51.2
 	github.com/gin-gonic/gin v1.7.7
-	github.com/go-admin-team/go-admin-core v1.4.1-0.20220809101213-21187928f7d9
-	github.com/go-admin-team/go-admin-core/sdk v1.4.1-0.20220809101213-21187928f7d9
+	github.com/glory-go/go-admin-core v0.0.0-20220819072435-6298f5ed1866
+	github.com/glory-go/go-admin-core/sdk v0.0.0-20220819072435-6298f5ed1866
 	github.com/google/uuid v1.3.0
 	github.com/huaweicloud/huaweicloud-sdk-go-obs v3.21.12+incompatible
 	github.com/mssola/user_agent v0.5.2
@@ -55,7 +55,7 @@ require (
 	github.com/ghodss/yaml v1.0.0 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/git-chglog/git-chglog v0.0.0-20190611050339-63a4e637021f // indirect
-	github.com/go-admin-team/go-admin-core/plugins/logger/zap v0.0.0-20210610020726-2db73adb505d // indirect
+	github.com/glory-go/go-admin-core/plugins/logger/zap v0.0.0-20220819072435-6298f5ed1866 // indirect
 	github.com/go-admin-team/gorm-adapter/v3 v3.7.8-0.20220809100335-eaf9f67b3d21 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
 	github.com/go-openapi/jsonpointer v0.19.3 // indirect
@@ -121,8 +121,8 @@ require (
 	github.com/ugorji/go/codec v1.1.7 // indirect
 	github.com/urfave/cli v1.22.1 // indirect
 	github.com/yusufpapurcu/wmi v1.2.2 // indirect
-	go.uber.org/atomic v1.6.0 // indirect
-	go.uber.org/multierr v1.5.0 // indirect
+	go.uber.org/atomic v1.10.0 // indirect
+	go.uber.org/multierr v1.8.0 // indirect
 	go.uber.org/zap v1.15.0 // indirect
 	golang.org/x/image v0.0.0-20210220032944-ac19c3e999fb // indirect
 	golang.org/x/lint v0.0.0-20200302205851-738671d3881b // indirect
@@ -138,8 +138,3 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gorm.io/plugin/dbresolver v1.2.2 // indirect
 )
-
-//replace (
-//	github.com/go-admin-team/go-admin-core v1.4.0 => ../../go-admin-core
-//	github.com/go-admin-team/go-admin-core/sdk v1.4.0 => ../../go-admin-core/sdk
-//)
